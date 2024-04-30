@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Cor de fundo */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+  padding: 20px;
+  background-color: #fff; /* Cor do conteúdo */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.header {
+  background-color: #333; /* Cor do cabeçalho */
+  color: #fff; /* Cor do texto */
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #666; /* Cor da barra de navegação */
+  color: #fff; /* Cor do texto da barra de navegação */
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.footer {
+  background-color: #333; /* Cor do rodapé */
+  color: #fff; /* Cor do texto do rodapé */
+  padding: 20px;
+  text-align: center;
+}
+
+#textoCentralizado {
+  text-align: center;
+}
+#texto-canto-superior-direito {
+  position: fixed;
+  top: 10px; /* Ajuste a distância do topo conforme necessário */
+  right: 10px; /* Ajuste a distância da direita conforme necessário */
+  background-color: #333; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  padding: 10px; /* Espaçamento interno */
+}
+
